@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
-
+  component: this,
   actions: {
     showMap() {
       var map = this.get('map');
@@ -19,6 +19,15 @@ export default Ember.Component.extend({
       var container = this.$('.map-display')[0];
       var options = {
         center: this.get('map').center(neighborhood.data.latitude, neighborhood.data.longitude),
+        zoom: 15
+      };
+      map.findMap(container, options);
+    },
+    goToLatLng(lat, lng) {
+      var map = this.get('map');
+      var container = this.$('.map-display')[0];
+      var options = {
+        center: this.get('map').center(lat, lng),
         zoom: 15
       };
       map.findMap(container, options);
@@ -53,10 +62,16 @@ export default Ember.Component.extend({
         // Add mouseover and mouse out styling for the GeoJSON State data
         neighborhood.addListener('mouseover', function(e) {
           neighborhood.overrideStyle(e.feature, {
-            strokeColor: '#2a2a2a',
+            strokeColor: '#FFCCCB',
             strokeWeight: 2,
             zIndex: 2
           });
+          infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;">' +
+            e.feature.getProperty('label') + '</div>');
+
+          var anchor = new google.maps.MVCObject();
+          anchor.set("position", e.latLng);
+          infoWindow.open(fullMap, anchor);
         });
 
         neighborhood.addListener('mouseout', function(e) {
@@ -66,21 +81,16 @@ export default Ember.Component.extend({
         // Adds an info window on click with in a state that includes the state name and COLI
         neighborhood.addListener('click', function(e) {
           console.log(e);
-          infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;">' +
-            e.feature.getProperty('label') + '</div>');
-
-          var anchor = new google.maps.MVCObject();
-          anchor.set("position", e.latLng);
-          infoWindow.open(fullMap, anchor);
+          console.log(e.latLng.lat());
+          console.log(e.latLng.lng());
         });
-
 
         // Final step here sets the stateLayer GeoJSON data onto the map
         neighborhood.setMap(fullMap);
 
         // returns a color based on the value given when the function is called
 
-        fullMap.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+        // fullMap.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
       }
     }
   }
