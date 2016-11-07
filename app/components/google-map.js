@@ -11,6 +11,13 @@ export default Ember.Component.extend({
         zoom: 15
       };
       this.get('map').findMap(container, options);
-    }
+    },
+    // 
+    // showResults() {
+    //   var contianer = this.$('.map-display')[0];
+    //   var options = {
+    //     center: this.get('map').center()
+    //   }
+    // }
   }
 });
