@@ -1,0 +1,21 @@
+<h1>address form</h1>
+ <div>
+   <form>
+     <div class="form-group">
+       <label for="street">street</label>
+       {{input value=street id="street"}}
+     </div>
+
+     <div class="form-group">
+       <label for="city">city</label>
+       {{input value=city id="city"}}
+     </div>
+
+     <div class="form-group">
+       <label for="state">state</label>
+       {{input value=state id="state"}}
+     </div>
+
+     <button {{action 'lookup'}}>Submit</button>
+   </form>
+ </div>

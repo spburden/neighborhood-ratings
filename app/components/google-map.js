@@ -11,8 +11,8 @@ export default Ember.Component.extend({
         center: this.get('map').center(45.521121, -122.678077),
         zoom: 15
       };
+
       map.findMap(container, options);
-      //map.loadGeoJson('../portland.geojson'); //check this, must be inside dist
     },
     goToNeighborhood(neighborhood) {
       var map = this.get('map');
