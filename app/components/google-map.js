@@ -2,7 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
-  component: this,
+  lat2: null,
+  lng2: null,
+
   actions: {
     showMap() {
       var map = this.get('map');
@@ -23,27 +25,33 @@ export default Ember.Component.extend({
       };
       map.findMap(container, options);
     },
-    goToLatLng(lat, lng) {
+    goToLatLng: function() {
       var map = this.get('map');
       var container = this.$('.map-display')[0];
       var options = {
-        center: this.get('map').center(lat, lng),
+        center: this.get('map').center(this.get('lat2'), this.get('lng2')),
         zoom: 15
       };
       map.findMap(container, options);
     },
+
+
     initDataMap() {
+        console.log();
         this.$('.btn').removeClass('active');
         this.$('.btn-datamap').addClass('active');
         // Set a blank infoWindow to be used for each to state on click
          var infoWindow = new google.maps.InfoWindow({
            content: ""
          });
-
+        console.log(this.get('goToLatLng'));
+        this.set('lat2', 45.522462);
+        this.set('lng2', -122.665674);
+        var zoom2 = 12;
         var container = this.$('.map-display')[0];
         var options = {
-          center: this.get('map').center(45.522462, -122.665674),
-          zoom: 12,
+          center: this.get('map').center(this.get('lat2'), this.get('lng2')),
+          zoom: zoom2,
           styles: [{"featureType":"all","stylers":[{"saturation":0},{"hue":"#e7ecf0"}]},{"featureType":"road","stylers":[{"saturation":-70}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"simplified"},{"saturation":-60}]}],
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           mapTypeControl: false,
@@ -62,7 +70,7 @@ export default Ember.Component.extend({
         // Add mouseover and mouse out styling for the GeoJSON State data
         neighborhood.addListener('mouseover', function(e) {
           neighborhood.overrideStyle(e.feature, {
-            strokeColor: '#FFCCCB',
+            strokeColor: 'green',
             strokeWeight: 2,
             zIndex: 2
           });
@@ -80,9 +88,13 @@ export default Ember.Component.extend({
 
         // Adds an info window on click with in a state that includes the state name and COLI
         neighborhood.addListener('click', function(e) {
-          console.log(e);
-          console.log(e.latLng.lat());
-          console.log(e.latLng.lng());
+          this.set('lat2', e.latLng.lat());
+          this.set('lng2', e.latLng.lng());
+          // zoom2 = 15;
+          console.log(this.get('map'));
+        //  fullMap = this.get('map').findMap(container, options);
+
+        //  map.findMap(container, options);
         });
 
         // Final step here sets the stateLayer GeoJSON data onto the map
