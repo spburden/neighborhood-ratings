@@ -2,6 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function(params) {
-    console.log(params);
+    var neighborhood = this.store.query('neighborhood', {
+      orderBy: 'name',
+      equalTo: params.name
+    });
+    return neighborhood;
   }
 });
