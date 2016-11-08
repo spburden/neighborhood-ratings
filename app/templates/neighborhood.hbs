@@ -1,4 +1,5 @@
-{{#each model as |neighborhood|}}
+{{#each model.neighborhood as |neighborhood|}}
   <h3>{{neighborhood.name}}</h3>
-  {{google-map}}
+  {{log neighborhood.reviews}}
+  {{neighborhood-map neighborhood=neighborhood}}
 {{/each}}
