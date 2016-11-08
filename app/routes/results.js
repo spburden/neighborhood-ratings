@@ -9,7 +9,7 @@ export default Ember.Route.extend({
    return Ember.$.getJSON(url).then(function(responseJSON) {
      console.log(responseJSON.results);
      return responseJSON.results;
-
    });
-  }
+ }
+  
 });

@@ -1,6 +1,14 @@
 <ul>
   {{#each model as |address|}}
     <li>{{address.formatted_address}}</li>
-    <!-- <li>{{address.}}</li> -->
   {{/each}}
-</ul>
+  </ul>
+
+
+ {{#each model as |address|}}
+    {{google-map address=address}}
+{{/each}}
+
+
+
+<!-- for i=0, address.address_component.kength; I ++ -->

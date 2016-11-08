@@ -4,20 +4,23 @@ export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
 
   actions: {
-    showMap() {
-      var container = this.$('.map-display')[0];
-      var options = {
-        center: this.get('map').center(45.521121, -122.678077),
-        zoom: 15
-      };
-      this.get('map').findMap(container, options);
+
+    showMap(address) {
+      var lat = address.geometry.location.lat;
+      var lng = address.geometry.location.lng;
+      var myLatLng = {lat: lat, lng: lng};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: '{{address.formatted_address}}'
+        });
     },
-    // 
-    // showResults() {
-    //   var contianer = this.$('.map-display')[0];
-    //   var options = {
-    //     center: this.get('map').center()
-    //   }
-    // }
+  
   }
 });
