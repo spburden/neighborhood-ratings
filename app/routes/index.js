@@ -9,6 +9,16 @@ export default Ember.Route.extend({
   actions: {
     lookup(params) {
       this.transitionTo('results', params);
+    },
+    findNeighborhood(neighborhood, lat, lng) {
+      this.transitionTo('neighborhood', neighborhood, lat, lng)
+      // console.log(params);
+      // var neighborhood = this.store.query('neighborhood', {
+      //   orderBy: 'name',
+      //   equalTo: params
+      // });
+      // console.log(neighborhood);
+      // return neighborhood;
     }
   }
 });

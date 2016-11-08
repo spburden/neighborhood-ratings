@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
+  component: this,
 
   actions: {
     hello() {
@@ -45,6 +46,7 @@ export default Ember.Component.extend({
 
 
     initDataMap() {
+      var that = this;
       var map = this.get('map');
       var container = this.$('.map-display')[0];
       this.$('.btn').removeClass('active');
@@ -68,6 +70,11 @@ export default Ember.Component.extend({
 
       // Create the state data layer and load the GeoJson Data
       var neighborhood = new google.maps.Data();
+
+      var sendFindAction = function(neighborhood, lat, lng) {
+        // that.sendAction('findNeighborhood', params);
+        that.sendAction('findNeighborhood', neighborhood, lat, lng);
+      }
       neighborhood.loadGeoJson('../portland.geojson');
 
       // Set and apply styling to the stateLayer
@@ -79,6 +86,7 @@ export default Ember.Component.extend({
           strokeWeight: 2,
           zIndex: 2
         });
+        // console.log(e.feature.getProperty('label'));
         infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;">' +
         e.feature.getProperty('label') + '</div>');
 
@@ -97,6 +105,10 @@ export default Ember.Component.extend({
           center: map.center(e.latLng.lat(), e.latLng.lng()),
           zoom: 14
         };
+        var neighborhoodToFind = e.feature.getProperty('label');
+        var neighborhoodLat = e.latLng.lat();
+        var neighborhoodLong = e.latLng.lng();
+        sendFindAction(neighborhoodToFind, neighborhoodLat, neighborhoodLong);
         var fullMap = map.findMap(container, options);
         neighborhood.setMap(fullMap);
       });
