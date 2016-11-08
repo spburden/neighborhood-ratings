@@ -8,5 +8,12 @@ export default Ember.Route.extend({
         equalTo: params.name
       }),
     });
+  },
+  actions: {
+    saveReview(params) {
+      console.log(params);
+      this.store.createRecord('review', params).save();
+      //this.transitionTo('index');
+    },
   }
 });
