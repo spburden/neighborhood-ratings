@@ -11,6 +11,12 @@ export default Ember.Route.extend({
       name: params.name,
     });
   },
+    var neighborhood = this.store.query('neighborhood', {
+      orderBy: 'name',
+      equalTo: params.name
+    });
+    return neighborhood;
+  }
 });
   // walkscore(params) {
   //   console.log(params);
