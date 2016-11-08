@@ -1,5 +1,10 @@
 {{#each model.neighborhood as |neighborhood|}}
   <h3>{{neighborhood.name}}</h3>
+  {{log neighborhood.reviews}}
+  {{#each neighborhood.reviews as |review|}}
+    <h3>{{review.author}} | {{review.score}}</h3>
+    <p>{{review.comments}}</p>
+  {{/each}}
   {{review-form neighborhood=neighborhood saveReview="saveReview"}}
   {{neighborhood-map neighborhood=neighborhood}}
 {{/each}}

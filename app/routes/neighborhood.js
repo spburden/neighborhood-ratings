@@ -11,9 +11,12 @@ export default Ember.Route.extend({
   },
   actions: {
     saveReview(params) {
-      console.log(params);
-      this.store.createRecord('review', params).save();
-      //this.transitionTo('index');
+      var newReview = this.store.createRecord('review', params);
+      var neighborhood = params.neighborhood;
+      neighborhood.get('reviews').addObject(newReview);
+      newReview.save().then(function() {
+        return neighborhood.save();
+      });
     },
   }
 });

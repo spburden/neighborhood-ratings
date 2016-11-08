@@ -13,7 +13,7 @@ export default Ember.Component.extend({
       var params = {
         comments: this.get('comments'),
         author: this.get('author'),
-        score: this.get('score'),
+        score: parseInt(this.get('score')),
         neighborhood: neighborhood
       };
       this.set('addNewReview', false);
