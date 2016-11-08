@@ -5,9 +5,5 @@ export default DS.Model.extend({
   zipcode: DS.attr(),
   latitude: DS.attr('number'),
   longitude: DS.attr('number'),
-
-  // street: DS.attr('street'),
-  // city: DS.attr('city'),
-  //state: DS.attr('state')
-
+  reviews: DS.hasMany('review', { async: true }),
 });

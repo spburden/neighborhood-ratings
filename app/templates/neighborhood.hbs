@@ -1,4 +1,5 @@
 {{#each model as |neighborhood|}}
   <h3>{{neighborhood.name}}</h3>
+  {{review-form neighborhood=neighborhood saveReview="saveReview"}}
   {{google-map}}
 {{/each}}
