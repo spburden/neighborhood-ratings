@@ -21,6 +21,6 @@ export default Ember.Component.extend({
           title: '{{address.formatted_address}}'
         });
     },
-  
+
   }
 });
