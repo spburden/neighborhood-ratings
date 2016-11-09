@@ -1,21 +1,23 @@
+<div class="well">
 <h1>address form</h1>
- <div>
+ <div class="address-entry">
    <form>
-     <div class="form-group">
+     <div class="form-group text-input">
        <label for="street">street</label>
        {{input value=street id="street"}}
      </div>
 
-     <div class="form-group">
+     <div class="form-group text-input">
        <label for="city">city</label>
        {{input value=city id="city"}}
      </div>
 
-     <div class="form-group">
+     <div class="form-group text-input">
        <label for="state">state</label>
        {{input value=state id="state"}}
      </div>
 
-     <button {{action 'lookup'}}>Submit</button>
+     <button class = "btn btn-md btn-success"{{action 'lookup'}}>Submit</button>
    </form>
  </div>
+</div>

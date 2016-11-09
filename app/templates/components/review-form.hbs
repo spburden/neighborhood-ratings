@@ -1,4 +1,6 @@
+
 {{#if addNewReview}}
+<div class="well review-well">
 <h2>New Review</h2>
 <div>
   <form>
@@ -18,6 +20,7 @@
     <button class="btn btn-success" {{action 'saveReview' neighborhood}}>Save</button>
   </form>
 </div>
+</div>
 {{else}}
-  <button class="btn btn-warning" {{action 'reviewFormShow'}}>Add Review</button>
+  <button class="btn btn-success" {{action 'reviewFormShow'}}>Add Review</button>
 {{/if}}

@@ -1,10 +1,12 @@
-<h2>New Neighborhood</h2>
-<div>
+<div class="well neighbor-well">
+<h1>New Neighborhood</h1>
+<div class ="address-entry">
   <form>
-    <div class="form-group">
+    <div class="form-group text-input">
       <label for="name">Name</label>
-      {{input value=name id="name" class="form-control"}}
+      {{input value=name id="name"}}
     </div>
-    <button class="btn btn-success" {{action 'saveNeighborhood' neighborhood}}>Save</button>
+    <button class="btn-neighborhood-save btn btn-success" {{action 'saveNeighborhood' neighborhood}}>Save</button>
   </form>
+</div>
 </div>
