@@ -2,3 +2,13 @@
   height: 600px;
   width: 1000px;
 }
+
+body {
+ background-image: url(http://cdn.wallpapersafari.com/6/77/s5RnqB.jpg);
+ margin: 30px;
+ padding: 30px;;
+}
+
+.btn {
+margin-bottom: 13px;
+}
