@@ -50,10 +50,12 @@ body {
 
 .text-input {
   color: black;
+  max-width: 100%;
 }
 
 h1, h2 {
 align: center;
+
 }
 
 .stars {
@@ -63,4 +65,13 @@ align: center;
   border-radius: 10px;
   max-width: 600px;
   color: black;
+}
+
+.text-input {
+  max-width: 5000px;
+  color: black
+}
+
+.form-control, .address {
+width: 90%;
 }
