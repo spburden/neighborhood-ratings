@@ -2,13 +2,65 @@
   height: 600px;
   width: 100%;
 }
-
 body {
- background-image: url(http://cdn.wallpapersafari.com/6/77/s5RnqB.jpg);
- margin: 30px;
- padding: 30px;;
+  background: url(http://cdn.wallpapersafari.com/6/77/s5RnqB.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  margin-top: 20px;
+  width: 90%;
+ margin-left: 50px;
+}
+.well {
+  max-width: 500px;
+  align-self: auto;
+  margin-top: 50px;
+  opacity: .5;
+  background-color: #5F3232;
+  color: white
 }
 
+.review-well {
+  max-width: 500px;
+  background-color: black;
+  opacity: .89;
+}
+.neighbor-well {
+  max-width: 300px;
+  align-self: auto;
+  margin-top: 50px;
+  opacity: .5;
+  background-color: #5F3232;
+  color: white;
+  align-self: center;
+}
+.style-1 {
+  margin: 20px;
+}
 .btn {
-margin-bottom: 13px;
+   border-radius:0;
+}
+.neighbor-well {
+  background-color: black;
+}
+
+.text-input {
+  color: black;
+}
+
+h1, h2 {
+align: center;
+}
+
+.stars {
+  background-color:  #154747;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  color: black;
 }
