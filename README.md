@@ -1,53 +1,62 @@
-# Neighborhoods
+# _Neighborly PDX_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _11/9/2016_
+
+#### By _**Stephen Burden, Eric Krause, Andrew Merrell, and Jackson Meyer**_
+
+## Description
+
+_Ember application that allows users to select and view key information about Portland neighborhoods._
+
+## Specifications
+
+| Behavior         | Input         | Output         |
+|------------------|---------------|----------------|
+| App displays interactive map of Portland neighborhoods. | User loads webpage. | Page displays map with neighborhood boundaries. |
+| User selects neighborhood | Click on highlighted area of google map. | Neighborhood page loads with information about that neighborhood. |
+| Neighborhood page displays Walkscore, Google Maps, and Bike Index API . | Click on neighborhood. | Page loads with Walkscore, number of stolen bikes and a Google Map of the area. |
+| User submits a review | Review form is filled out and submit is clicked. | Neighborhood page reloads with new review with star display for rating. |
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+_You will need the following things properly installed on your computer._
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* _[Git](http://git-scm.com/)_
+* _[Node.js](http://nodejs.org/) (with NPM)_
+* _[Bower](http://bower.io/)_
+* _[Ember CLI](http://ember-cli.com/)_
+* _[PhantomJS](http://phantomjs.org/)_
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd neighborhoods`
+* `git clone https://github.com/amcmerrell/neighborhood-ratings`
+* `cd neighborhood-ratings`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* _Visit your app at [http://localhost:4200](http://localhost:4200)._
 
-### Code Generators
+## Known Bugs
+_There are currently no known bugs for this project. If you discover any issues, you can reach me via the contact details below._
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Support and contact details
+_If you have any questions about this project, please contact Andrew at andrew.m.merrell@gmail.com_
 
-### Running Tests
+## Technologies Used
+* _JavaScript_
+* _Ember_
+* _Node.js_
+* _Google Maps API_
+* _Walkscore API_
+* _Bike Index API_
+* _Sass_
+* _HTML_
 
-* `ember test`
-* `ember test --server`
+### License
 
-### Building
+*This webpage is licensed under the MIT license.*
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Stephen Burden, Eric Krause, Andrew Merrell, and Jackson Meyer_**
