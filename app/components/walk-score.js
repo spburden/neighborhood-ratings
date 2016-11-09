@@ -7,9 +7,6 @@ export default Ember.Component.extend({
        console.log(responseJSON.walkscore);
        $("#walkScore").text(responseJSON.walkscore);
        $("#walkDescription").text(responseJSON.description);
-      //  var score = responseJSON.walkscore;
-      //  return score;
-      //  return responseJSON;
      });
   }),
 });
