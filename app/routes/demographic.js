@@ -3,10 +3,10 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model: function(params) {
    console.log(params);
-   var url = 'http://api.census.gov/data/2016/pdb/tract?get=County_name,State_name,Tot_Population_CEN_2010,ACJ9E003&for=tract:' + params.tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
+   var url = 'http://api.census.gov/data/2016/pdb/tract?get=County_name,State_name,Tot_Population_CEN_2010,College_ACS_10_14,Med_HHD_Inc_ACS_10_14&for=tract:' + params.tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
    return Ember.$.getJSON(url).then(function(responseJSON) {
+     console.log(responseJSON.results);
      return responseJSON.results;
-     console.log(results);
    });
   }
 });

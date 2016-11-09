@@ -8,6 +8,7 @@ module.exports = function(defaults) {
   });
   app.import("bower_components/bootstrap/dist/js/bootstrap.min.js");
   app.import('vendor/gmaps.js');
+  app.import('vendor/demographic.js')
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

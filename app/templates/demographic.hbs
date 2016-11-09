@@ -1,8 +1,8 @@
-{{log model}}
 
   <ul>
     {{#each model as |demographics|}}
-      {{log demographics}}
-      <li> {{demographics.C02003}} <br> {{demographics.C15003}}</li>
+      <li> {{demographics.County_name}} <br> {{demographics.State_name}} <br>
+          {{demographics.Tot_Population_CEN_2010}} <br> {{demographics.College_ACS_10_14}} <br>
+          {{demographics.Med_HHD_Inc_ACS_10_14}}</li>
     {{/each}}
   </ul>
