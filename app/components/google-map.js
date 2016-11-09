@@ -3,7 +3,6 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
   component: this,
-  didRender() {}
 
   actions: {
     showMap() {
