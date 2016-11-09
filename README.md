@@ -21,11 +21,14 @@ _Ember application that allows users to select and view key information about Po
 
 _You will need the following things properly installed on your computer._
 
+
 * _[Git](http://git-scm.com/)_
 * _[Node.js](http://nodejs.org/) (with NPM)_
 * _[Bower](http://bower.io/)_
 * _[Ember CLI](http://ember-cli.com/)_
 * _[PhantomJS](http://phantomjs.org/)_
+* _Google Chrome Extention "Allow-Control-Allow-Origin:*"_
+
 
 ## Installation
 

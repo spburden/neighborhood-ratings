@@ -7,9 +7,11 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    lookup(params) {
-      this.transitionTo('results', params);
+
+    tractLookup(params) {
+      this.transitionTo('demographic', params.tract);
     },
+
     findNeighborhood(neighborhood, lat, lng) {
       this.transitionTo('neighborhood', neighborhood, lat, lng);
     },

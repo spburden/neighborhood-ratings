@@ -76,6 +76,7 @@ export default Ember.Component.extend({
   },
 
   actions: {
+
     // getStuff(){
     //   var geo = JSON.parse(localStorage.getItem('../portland.geojson'));
     //   console.log(geo);

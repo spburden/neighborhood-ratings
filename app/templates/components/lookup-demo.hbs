@@ -1,0 +1,10 @@
+<h1>Demographic Lookup</h1>
+
+<form>
+  <div class="form-group">
+    <label for="tract">Census Tract</label>
+    {{input value=tract id="tract"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'tractLookup'}}>Submit</button>
+</form>
