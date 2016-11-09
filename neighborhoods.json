@@ -1,0 +1,15 @@
+{
+	"neighborhoods": [
+		{
+			"name": "Mount Tabor",
+			"zipcode": 97215,
+			"latitude": 45.515765,
+			"longitude": -122.599612
+		}, {
+			"name": "Downtown",
+			"zipcode": 97215,
+			"latitude": 45.515765,
+			"longitude": -122.599612
+		}
+	]
+}

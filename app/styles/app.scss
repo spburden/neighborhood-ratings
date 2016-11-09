@@ -1,0 +1,92 @@
+.map-display {
+  height: 600px;
+  width: 100%;
+}
+.neighborhood-map {
+  height: 600px;
+  width: 100%;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.row {
+  .main-content {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+body {
+  background: url(http://cdn.wallpapersafari.com/6/77/s5RnqB.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  margin-top: 20px;
+}
+.well {
+  /*max-width: 500px;
+  align-self: auto;
+  margin-top: 50px;
+  opacity: .5;
+  background-color: #5F3232;
+  color: white*/
+}
+
+.review-well {
+  max-width: 500px;
+  background-color: black;
+  opacity: .89;
+}
+.neighbor-well {
+  max-width: 300px;
+  align-self: auto;
+  margin-top: 50px;
+  opacity: .5;
+  background-color: #5F3232;
+  color: white;
+  align-self: center;
+}
+.style-1 {
+  margin: 20px;
+}
+.btn {
+   border-radius:0;
+}
+.neighbor-well {
+  background-color: black;
+}
+
+.text-input {
+  color: black;
+  max-width: 100%;
+}
+
+h1, h2 {
+align: center;
+
+}
+
+.stars {
+  background-color:  #154747;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  color: black;
+}
+
+.text-input {
+  max-width: 5000px;
+  color: black
+}
+
+.form-control, .address {
+width: 90%;
+}
