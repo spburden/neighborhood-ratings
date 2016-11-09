@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     },
 
     tractLookup(params) {
-      this.transitionTo('demographic', params);
+      this.transitionTo('demographic', params.tract);
     }
   }
 });

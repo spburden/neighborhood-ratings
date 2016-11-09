@@ -1,16 +1,14 @@
 import Ember from 'ember';
-
 export default Ember.Route.extend({
   model: function(params) {
-   console.log(params);
    var url = 'http://api.census.gov/data/2016/pdb/tract?get=County_name,State_name,Tot_Population_CEN_2010,College_ACS_10_14,Med_HHD_Inc_ACS_10_14&for=tract:' + params.tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
    return Ember.$.getJSON(url).then(function(responseJSON) {
-     console.log(responseJSON.results);
-     return responseJSON.results;
-   });
+    //  console.log(responseJSON[1][0]);
+    //  $("#hello").text(responseJSON[1][0]);
+     return Ember.String.htmlSafe([ '<li>' + 'County: ' + responseJSON[1][0] +'</li>' + '<li>' + 'State: ' + responseJSON[1][1] + '</li>' + '<li>' + 'Total Population: ' + responseJSON[1][2] + '</li>' + '<li>' + 'People with College Degrees over the age of 25: ' + responseJSON[1][3] + '</li>' + '<li>'+ 'Median Household Income: ' + responseJSON[1][4]]);
+    });
   }
 });
-
 
 // http://api.census.gov/data/2016/pdb/tract?get=County_name,State_name,Tot_Population_CEN_2010&for=tract:20100&in=state:01+county:001&key=YOUR_KEY_GOES_HERE
 

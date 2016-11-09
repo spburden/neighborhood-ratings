@@ -1,8 +1,6 @@
 
+<h1>Demographic Data for this Neighborhood</h1>
+
   <ul>
-    {{#each model as |demographics|}}
-      <li> {{demographics.County_name}} <br> {{demographics.State_name}} <br>
-          {{demographics.Tot_Population_CEN_2010}} <br> {{demographics.College_ACS_10_14}} <br>
-          {{demographics.Med_HHD_Inc_ACS_10_14}}</li>
-    {{/each}}
+    {{model}}
   </ul>
