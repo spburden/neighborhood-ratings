@@ -2,6 +2,10 @@
   height: 600px;
   width: 100%;
 }
+.neighborhood-map {
+  height: 600px;
+  width: 100%;
+}
 body {
   background: url(http://cdn.wallpapersafari.com/6/77/s5RnqB.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,12 +20,12 @@ body {
  margin-left: 50px;
 }
 .well {
-  max-width: 500px;
+  /*max-width: 500px;
   align-self: auto;
   margin-top: 50px;
   opacity: .5;
   background-color: #5F3232;
-  color: white
+  color: white*/
 }
 
 .review-well {

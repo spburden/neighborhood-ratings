@@ -1,9 +1,18 @@
-<div class="stars">
-<h3>{{neighborhood.name}}</h3>
-{{#each neighborhood.reviews as |review|}}
-  <h3>{{review.author}} | {{star-rating review.score}}</h3>
-  <p>{{review.comments}}</p>
-{{/each}}
+<h1>{{neighborhood.name}}</h1>
+<div class="row">
+  <div class="col-md-4">
+    <h3>Stats</h3>
+    {{walk-score latLong=latLong}}
+    <h3>Reviews</h3>
+    {{review-form neighborhood=neighborhood saveReview="saveReview"}}
+    {{#each neighborhood.reviews as |review|}}
+      <h3>{{review.author}} | {{star-rating review.score}}</h3>
+      <p>{{review.comments}}</p>
+      <hr>
+    {{/each}}
+  </div>
+  <div class="col-md-8">
+    <h3>{{neighborhood.name}} Map</h3>
+    {{neighborhood-map neighborhood=neighborhood latLong=latLong}}
+  </div>
 </div>
-{{review-form neighborhood=neighborhood saveReview="saveReview"}}
-{{neighborhood-map neighborhood=neighborhood}}

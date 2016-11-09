@@ -76,11 +76,11 @@ export default Ember.Component.extend({
   },
 
   actions: {
-    getStuff(){
-      var geo = JSON.parse(localStorage.getItem('../portland.geojson'));
-      console.log(geo);
-      console.log(geo.length);
-    },
+    // getStuff(){
+    //   var geo = JSON.parse(localStorage.getItem('../portland.geojson'));
+    //   console.log(geo);
+    //   console.log(geo.length);
+    // },
     showMap() {
       var map = this.get('map');
       var container = this.$('.map-display')[0];
