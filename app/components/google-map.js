@@ -17,7 +17,7 @@ export default Ember.Component.extend({
 
     var options = {
       center: map.center(45.550309, -122.665674),
-      zoom: 11,
+      zoom: 13,
       styles: [{"featureType":"all","stylers":[{"saturation":0},{"hue":"#e7ecf0"}]},{"featureType":"road","stylers":[{"saturation":-70}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"simplified"},{"saturation":-60}]}],
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       mapTypeControl: false,
