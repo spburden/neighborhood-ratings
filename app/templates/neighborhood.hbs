@@ -1,3 +1,5 @@
 {{#each model.neighborhood as |neighborhood|}}
   {{neighborhood-details neighborhood=neighborhood saveReview='saveReview'}}
 {{/each}}
+
+{{walk-score latLong=model.latLong}}
