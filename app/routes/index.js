@@ -7,9 +7,6 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    lookup(params) {
-      this.transitionTo('results', params);
-    },
 
     tractLookup(params) {
       this.transitionTo('demographic', params.tract);
