@@ -1,5 +1,8 @@
+{{log model}}
+
   <ul>
-    {{#each model as |zipcode|}}
-      <li> {{zipcode.C02003}} <br> {{zipcode.C15003}}</li>
+    {{#each model as |demographics|}}
+      {{log demographics}}
+      <li> {{demographics.C02003}} <br> {{demographics.C15003}}</li>
     {{/each}}
   </ul>

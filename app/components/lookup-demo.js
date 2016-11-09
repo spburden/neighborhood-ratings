@@ -2,11 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    zipLookup() {
+    tractLookup() {
       var params = {
-        zip: this.get('zip')
+        tract: this.get('tract')
       };
-      this.sendAction('zipLookup', params);
+      this.sendAction('tractLookup', params);
     }
   }
 });

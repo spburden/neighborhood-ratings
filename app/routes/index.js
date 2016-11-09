@@ -7,8 +7,8 @@ export default Ember.Route.extend({
       this.transitionTo('results', params);
     },
 
-    zipLookup(params) {
-      this.transitionTo('demographic', params.zip);
+    tractLookup(params) {
+      this.transitionTo('demographic', params);
     }
   }
 });
