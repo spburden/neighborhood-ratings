@@ -16,4 +16,10 @@ export default Ember.Component.extend({
        $("#transitSummary").text(responseJSON.summary);
      });
   }),
+  stolen: Ember.computed(function() {
+  var url = 'https://bikeindex.org:443/api/v3/search/count?location='+ this.latLong[0] + '%2C' + this.latLong[1] +'&distance=1&stolenness=proximity';
+  return Ember.$.getJSON(url).then(function(responseJSON) {
+    $("#stolen").text(responseJSON.proximity);
+  });
+}),
 });

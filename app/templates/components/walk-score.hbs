@@ -1,9 +1,12 @@
-<div class="well">
-  <h2 {{walk}}>Walk Score: <span id="walkScore"></span></h2>
+<div {{walk}} class="well">
+  <h2>Walk Score: <span id="walkScore"></span></h2>
   <h3 id="walkDescription"></h3>
 </div>
-<div class="well">
-  <h2 {{transit}}>Transit Score: <span id="transitScore"></span></h2>
+<div {{transit}} class="well">
+  <h2>Transit Score: <span id="transitScore"></span></h2>
   <h3 id="transitDescription"></h3>
   <h3 id="transitSummary"></h3>
+</div>
+<div {{stolen}} class="well">
+  <h4>Number of Bikes Stolen Within a 1 Mile Proximity: <span id="stolen"></span></h4>
 </div>
