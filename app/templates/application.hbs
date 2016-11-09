@@ -9,22 +9,15 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand">{{#link-to 'index'}}Neighborly{{/link-to}}</a>
+        <span class="navbar-brand">Neighborly PDX</span>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="/bestPlaces">highest rated neighborhoods<span class="sr-only">(current)</span></a></li>
-          <li><a href="worstPlaces">worst rated neighborhoods</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/why">Why do this?</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="/team">meet our team</a></li>
-            </ul>
-          </li>
+          <li class="active">{{#link-to 'index'}}Home<span class="sr-only">(current)</span>{{/link-to}}</li>
+          <li><a href="https://github.com/amcmerrell/neighborhood-ratings" target="_blank">View on GitHub</a></li>
+
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
