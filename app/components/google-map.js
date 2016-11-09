@@ -26,14 +26,14 @@ export default Ember.Component.extend({
       }
     };
     var fullMap = map.findMap(container, options);
-    
+
     // Create the state data layer and load the GeoJson Data
     var neighborhood = new google.maps.Data();
 
     var sendFindAction = function(neighborhood, lat, lng) {
       // that.sendAction('findNeighborhood', params);
       that.sendAction('findNeighborhood', neighborhood, lat, lng);
-    }
+    };
     neighborhood.loadGeoJson('../portland.geojson');
 
     // Add mouseover and mouse out styling for the GeoJSON State data
@@ -41,6 +41,7 @@ export default Ember.Component.extend({
       neighborhood.overrideStyle(e.feature, {
         strokeColor: 'green',
         strokeWeight: 2,
+        fillColor: 'green',
         zIndex: 2
       });
       // console.log(e.feature.getProperty('label'));

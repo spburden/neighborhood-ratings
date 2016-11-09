@@ -23,7 +23,7 @@ export default Ember.Component.extend({
         this.set('comments', '');
         this.set('author', '');
       } else {
-        alert("Please fill out all fields before submitting and keep ratings between 1 and 5.")
+        alert("Please fill out all fields before submitting and keep ratings between 1 and 5.");
       }
 
     }
