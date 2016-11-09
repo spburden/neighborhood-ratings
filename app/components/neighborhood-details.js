@@ -15,13 +15,9 @@ export default Ember.Component.extend({
       this.sendAction('saveReview', params);
     },
 
-    lookup(params) {
-      this.transitionTo('results', params);
-    },
-
-
     tractLookup(params) {
-      this.transitionTo('demographic', params.tract);
+      console.log(params.tract);
+      this.sendAction('tractLookup', params.tract);
     }
   }
 });
