@@ -13,6 +13,11 @@ export default Ember.Component.extend({
   actions: {
     saveReview(params) {
       this.sendAction('saveReview', params);
+    },
+
+    tractLookup(params) {
+      console.log(params.tract);
+      this.sendAction('tractLookup', params.tract);
     }
   }
 });

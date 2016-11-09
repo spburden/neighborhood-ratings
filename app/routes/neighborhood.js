@@ -20,6 +20,9 @@ export default Ember.Route.extend({
         return neighborhood.save();
       });
     },
+    tractLookup(params) {
+      this.transitionTo('demographic', params);
+    }
     // getWalkScore(params) {
     //   console.log(this.model.walkscore.value());
     //   //console.log(params);
