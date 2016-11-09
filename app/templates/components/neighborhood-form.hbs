@@ -1,0 +1,10 @@
+<h2>New Neighborhood</h2>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=name id="name" class="form-control"}}
+    </div>
+    <button class="btn btn-success" {{action 'saveNeighborhood' neighborhood}}>Save</button>
+  </form>
+</div>

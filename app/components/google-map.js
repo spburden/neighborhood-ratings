@@ -1,20 +1,11 @@
 import Ember from 'ember';
 
+
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
   component: this,
 
   actions: {
-    hello() {
-      var container = this.$('.map-display')[0];
-      var map = this.get('map');
-      var options = {
-        center: this.get('map').center(this.get('lat2'), this.get('lng2')),
-        zoom: 15
-      };
-
-      map.findMap(container, options);
-    },
     showMap() {
       var map = this.get('map');
       var container = this.$('.map-display')[0];
@@ -75,6 +66,7 @@ export default Ember.Component.extend({
         // that.sendAction('findNeighborhood', params);
         that.sendAction('findNeighborhood', neighborhood, lat, lng);
       }
+
       neighborhood.loadGeoJson('../portland.geojson');
 
       // Set and apply styling to the stateLayer
@@ -87,7 +79,7 @@ export default Ember.Component.extend({
           zIndex: 2
         });
         // console.log(e.feature.getProperty('label'));
-        infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;">' +
+        infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;pixelOffset:1000px;">' +
         e.feature.getProperty('label') + '</div>');
 
         var anchor = new google.maps.MVCObject();

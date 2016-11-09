@@ -13,6 +13,6 @@ export default Ember.Route.extend({
       console.log(params);
       this.store.createRecord('review', params).save();
       //this.transitionTo('index');
-    }
+    },
   }
 });
