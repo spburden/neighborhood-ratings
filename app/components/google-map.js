@@ -26,7 +26,7 @@ export default Ember.Component.extend({
       }
     };
     var fullMap = map.findMap(container, options);
-    
+
     // Create the state data layer and load the GeoJson Data
     var neighborhood = new google.maps.Data();
 
@@ -75,6 +75,11 @@ export default Ember.Component.extend({
   },
 
   actions: {
+    getStuff(){
+      var geo = JSON.parse(localStorage.getItem('../portland.geojson'));
+      console.log(geo);
+      console.log(geo.length);
+    },
     showMap() {
       var map = this.get('map');
       var container = this.$('.map-display')[0];

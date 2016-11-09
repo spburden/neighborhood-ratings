@@ -1,3 +1,7 @@
 {{#each model.neighborhood as |neighborhood|}}
   {{neighborhood-details neighborhood=neighborhood saveReview='saveReview'}}
 {{/each}}
+
+
+{{!-- <button type="button" name="button"{{action "getWalkScore" model.latLong}}>WALK SCORE</button> --}}
+{{walk-score latLong=model.latLong}}
