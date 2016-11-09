@@ -11,7 +11,12 @@ export default Ember.Route.extend({
       this.transitionTo('results', params);
     },
     findNeighborhood(neighborhood, lat, lng) {
-      this.transitionTo('neighborhood', neighborhood, lat, lng)
+      this.transitionTo('neighborhood', neighborhood, lat, lng);
+    },
+    saveNeighborhood(params) {
+      console.log(params);
+      this.store.createRecord('neighborhood', params).save();
+      //this.transitionTo('index');
     }
   }
 });

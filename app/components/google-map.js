@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 export default Ember.Component.extend({
   map: Ember.inject.service('google-map'),
   component: this,
@@ -25,7 +26,7 @@ export default Ember.Component.extend({
       }
     };
     var fullMap = map.findMap(container, options);
-
+    
     // Create the state data layer and load the GeoJson Data
     var neighborhood = new google.maps.Data();
 
@@ -101,6 +102,6 @@ export default Ember.Component.extend({
         zoom: 15
       };
       map.findMap(container, options);
-    },
+    }
   }
 });
