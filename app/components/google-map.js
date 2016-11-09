@@ -16,7 +16,7 @@ export default Ember.Component.extend({
     });
 
     var options = {
-      center: map.center(45.522462, -122.665674),
+      center: map.center(45.550309, -122.665674),
       zoom: 11,
       styles: [{"featureType":"all","stylers":[{"saturation":0},{"hue":"#e7ecf0"}]},{"featureType":"road","stylers":[{"saturation":-70}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"simplified"},{"saturation":-60}]}],
       mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -85,7 +85,7 @@ export default Ember.Component.extend({
       var map = this.get('map');
       var container = this.$('.map-display')[0];
       var options = {
-        center: this.get('map').center(45.521121, -122.678077),
+        center: this.get('map').center(45.543336, -122.678077),
         zoom: 15
       };
 

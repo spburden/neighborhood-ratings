@@ -1,14 +1,15 @@
-<div class="container">
-  <h1>Neighborly</h1>
-  <h2>The premier neighborhood review guide!</h2>
-  <hr>
+<div class="header">
+  <div class="container">
+    <h1 class="text-center">Neighborly PDX</h1>
+  </div>
 </div>
+
 <div class="outlet container">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="/">Neighborly</a>
+        <a class="navbar-brand">{{#link-to 'index'}}Neighborly{{/link-to}}</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,7 +30,7 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div class="row">
-    <div class="well">
+    <div class="well main-content">
       {{outlet}}
     </div>
   </div>
