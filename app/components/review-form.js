@@ -13,14 +13,19 @@ export default Ember.Component.extend({
       var params = {
         comments: this.get('comments'),
         author: this.get('author'),
-        score: parseInt(this.get('score')),
+        score: parseFloat(this.get('score')),
         neighborhood: neighborhood
       };
-      this.set('addNewReview', false);
-      this.sendAction('saveReview', params);
-      this.set('comments', '');
-      this.set('neighborhood', '');
-      this.set('author', '');
+      if(params.comments && params.author && params.score >= 0 && params.score <= 5) {
+        this.set('addNewReview', false);
+        this.sendAction('saveReview', params);
+        this.set('score', null);
+        this.set('comments', '');
+        this.set('author', '');
+      } else {
+        alert("Please fill out all fields before submitting and keep ratings between 1 and 5.")
+      }
+
     }
   }
 });

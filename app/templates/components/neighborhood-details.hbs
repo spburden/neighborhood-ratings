@@ -1,0 +1,7 @@
+<h3>{{neighborhood.name}} | {{avgReview}}</h3>
+{{#each neighborhood.reviews as |review|}}
+  <h3>{{review.author}} | {{star-rating review.score}}</h3>
+  <p>{{review.comments}}</p>
+{{/each}}
+{{review-form neighborhood=neighborhood saveReview="saveReview"}}
+{{neighborhood-map neighborhood=neighborhood}}
