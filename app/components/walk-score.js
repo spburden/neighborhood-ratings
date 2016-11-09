@@ -15,7 +15,7 @@ export default Ember.Component.extend({
        console.log(responseJSON.walkscore);
        $("#transitScore").text(responseJSON.transit_score);
        $("#transitDescription").text(responseJSON.description);
-        $("#transitSummary").text(responseJSON.summary);
+       $("#transitSummary").text(responseJSON.summary);
      });
   }),
 });
