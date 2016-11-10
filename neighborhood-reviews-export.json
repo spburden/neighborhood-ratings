@@ -1,0 +1,749 @@
+{
+  "neighborhoods" : {
+    "0" : {
+      "latitude" : 45.515765,
+      "longitude" : -122.599612,
+      "name" : "Mount Tabor",
+      "zipcode" : 97215
+    },
+    "1" : {
+      "latitude" : 45.515765,
+      "longitude" : -122.599612,
+      "name" : "Downtown",
+      "reviews" : {
+        "-KW52QdkYUiFKjNJGsRj" : true,
+        "-KW52XiURb06QihIJ_OT" : true,
+        "-KW52mgLMpchluBORjC2" : true,
+        "-KW5307b9XQuqj9CsGoX" : true,
+        "-KW53FFREmmHI6f15VTH" : true,
+        "-KW53gWEXbEAU7Ybr8Fr" : true,
+        "-KW53xoBKn3GRZdq9n_U" : true,
+        "-KW53zIQwcAsCotMvvcu" : true,
+        "-KW57BtT1Dp-ldaeJFNA" : true,
+        "-KW57DnB7fuYbr_U_lLh" : true,
+        "-KW9broAcDBdn35-6otz" : true,
+        "-KWDyVcFH-rrsZ5F6RxI" : true
+      },
+      "zipcode" : 97215
+    },
+    "-KW5RrcaCvyMdIsr5yWf" : {
+      "name" : "Springville"
+    },
+    "-KW5UN2BSWvqwZ7jfkZx" : {
+      "name" : "Rivershore"
+    },
+    "-KW5Vfq-SDtSCkmdns4x" : {
+      "name" : "Grandview"
+    },
+    "-KW5VlmqtKRJEhtfy4Wy" : {
+      "name" : "Bridlemile"
+    },
+    "-KW5VnsDcLocEoyJ1lPR" : {
+      "name" : "Southwest"
+    },
+    "-KW5VsAg6tEtEe8GB1hI" : {
+      "name" : "Fort Rains"
+    },
+    "-KW5VuNYJnHFDycADM15" : {
+      "name" : "SE Portland"
+    },
+    "-KW5Vz0_ov9VFt8d-mRp" : {
+      "name" : "Alberta Arts District"
+    },
+    "-KW5W0SwnF7qQ8KZt66s" : {
+      "name" : "Arbor Lodge"
+    },
+    "-KW5W16dxggfbKgLttTH" : {
+      "name" : "Birdshill"
+    },
+    "-KW5W2EwKzwpMEEZGeph" : {
+      "name" : "Ardenwald-Brentwood"
+    },
+    "-KW5W4fAuw-y_7ICb_bI" : {
+      "name" : "Ardenwald-Woodstock"
+    },
+    "-KW5W506f0T8-hEXhK8q" : {
+      "name" : "Portland Heights"
+    },
+    "-KW5W6oQA_RGLcCsz2LO" : {
+      "name" : "Argay"
+    },
+    "-KW5WBGPSuoam4jQ2DaF" : {
+      "name" : "Arnold Creek"
+    },
+    "-KW5WCVJrm1ngzOWrs-S" : {
+      "name" : "Beaumont"
+    },
+    "-KW5WC_O9MLW3olYIYwW" : {
+      "name" : "Forest Highlands"
+    },
+    "-KW5WEeTG9iu-gOpDo9_" : {
+      "name" : "Lake Yard"
+    },
+    "-KW5WFNIlWxLiBL4nNhR" : {
+      "name" : "Belmont"
+    },
+    "-KW5WHKm2M1DbDSZg92c" : {
+      "name" : "Boise"
+    },
+    "-KW5WIST0rwi_JqtME2r" : {
+      "name" : "Steamboat Landing Marina"
+    },
+    "-KW5WJQoXHprPfZ_e-Ag" : {
+      "name" : "Broadway District"
+    },
+    "-KW5WLcYr3y3ktvg1JBn" : {
+      "name" : "Centennial"
+    },
+    "-KW5WPumyc6zO-Eunm_c" : {
+      "name" : "Central Eastside"
+    },
+    "-KW5WS59-j7Hw4GWF0Tw" : {
+      "name" : "Central Northeast"
+    },
+    "-KW5WTFqqnfj8gVAp6lT" : {
+      "name" : "Multnomah"
+    },
+    "-KW5WTi1SH9IW3XCQ_cq" : {
+      "name" : "Clinton"
+    },
+    "-KW5WUzy2xwmSTYnNtTS" : {
+      "name" : "Twelvemile Corner"
+    },
+    "-KW5WV_mq04ACvHJzQRz" : {
+      "name" : "Colonial Heights"
+    },
+    "-KW5WWgxTpNjM6NqrysP" : {
+      "name" : "Bellrose"
+    },
+    "-KW5WXGId4g2taZCI20W" : {
+      "name" : "Concordia"
+    },
+    "-KW5WYewXcse0dtcSDST" : {
+      "name" : "Rivers Edge"
+    },
+    "-KW5WYkrqiVTSnQLNRdG" : {
+      "name" : "Corbett"
+    },
+    "-KW5W_KiSE49C3Wf7vPU" : {
+      "name" : "Russellville"
+    },
+    "-KW5W_W78WBZS3xCkw-Q" : {
+      "name" : "Creston-Kenilworth"
+    },
+    "-KW5Wb8gHRHlmDbarfsu" : {
+      "name" : "Hayhurst"
+    },
+    "-KW5WcVuLHvvylNkgkFU" : {
+      "name" : "Cully"
+    },
+    "-KW5Wcix0QjWdWGpm6MF" : {
+      "name" : "Far Southwest"
+    },
+    "-KW5WePKkveNciRnKxUS" : {
+      "name" : "Rockwood"
+    },
+    "-KW5WfAd1JOVX0X8G0Qb" : {
+      "name" : "East Columbia"
+    },
+    "-KW5WgWqdMBtImm7h3-Y" : {
+      "name" : "Wilson"
+    },
+    "-KW5WhFHra-gPVQFIQaU" : {
+      "name" : "East Portland"
+    },
+    "-KW5WiiJVKUC8HrrpMKL" : {
+      "name" : "St. Johns"
+    },
+    "-KW5Wjv17eePuOWS5tRW" : {
+      "name" : "Eastmoreland-Reed"
+    },
+    "-KW5WkFSrty2H0IVQyHH" : {
+      "name" : "Buckman"
+    },
+    "-KW5WlZd-Ie8DoKj1pM1" : {
+      "name" : "Foster-Powell"
+    },
+    "-KW5WlyKqPtuvfzrCd28" : {
+      "name" : "East St Johns"
+    },
+    "-KW5Wn5Pb5A1rpGQDrs5" : {
+      "name" : "Glenfair"
+    },
+    "-KW5WndZWrel73KuFpRe" : {
+      "name" : "North Portland"
+    },
+    "-KW5WooNEmD1daN-4VVf" : {
+      "name" : "Maywood Park"
+    },
+    "-KW5WpUSTLFYlnOyYQ1T" : {
+      "name" : "Kenton"
+    },
+    "-KW5WqW8cY9OKcto0QRP" : {
+      "name" : "Grant Park-Hollywood"
+    },
+    "-KW5Wr8Bqciv1XY-7Qyh" : {
+      "name" : "Peninsula Junction",
+      "reviews" : {
+        "-KWA7qW3fzzg-IeXfiTz" : true
+      }
+    },
+    "-KW5WsYkBYYZ9D1QZ8gT" : {
+      "name" : "Healy Heights"
+    },
+    "-KW5Wsl6x_RkPF1Cm4k_" : {
+      "name" : "Irvington"
+    },
+    "-KW5WuSGeGUD5WJjiRvA" : {
+      "name" : "Hillside-Northwest District"
+    },
+    "-KW5Wu_FqpteYQVL6FOA" : {
+      "name" : "University Park"
+    },
+    "-KW5Ww2pfhTp9vRyZ9GI" : {
+      "name" : "Sellwood"
+    },
+    "-KW5WxXoK4kOZcNAdNTF" : {
+      "name" : "Ramapo"
+    },
+    "-KW5WzERI2DzumRX-ZmJ" : {
+      "name" : "Old Town"
+    },
+    "-KW5X1sCbkVmmqsbvb5s" : {
+      "name" : "Hawthorne"
+    },
+    "-KW5X8j3Hm06d6Z4sBMU" : {
+      "name" : "NE Portland"
+    },
+    "-KW5XAxNUADuTiBbtCEW" : {
+      "name" : "Hosford-Abernathy"
+    },
+    "-KW5XCLS4gAiiyYSttN9" : {
+      "name" : "NW Portland"
+    },
+    "-KW5XCQ60hwTWwsRV1Wn" : {
+      "name" : "Humboldt"
+    },
+    "-KW5XEHdc5Knxgrom5iM" : {
+      "name" : "Inner Southeast"
+    },
+    "-KW5XEuwTDuri21unusO" : {
+      "name" : "Nob Hill"
+    },
+    "-KW5XIVL6p69PxWlw4Y-" : {
+      "name" : "King"
+    },
+    "-KW5XJOSI9shbd4knZS7" : {
+      "name" : "Rose City"
+    },
+    "-KW5XKjUNWYMtRbgi2KV" : {
+      "name" : "Lents-Powellhurst-Gilbert"
+    },
+    "-KW5XM5oB4uFqWnMnuxU" : {
+      "name" : "SW Portland"
+    },
+    "-KW5XMe507st-WJHJaxX" : {
+      "name" : "Willamette Heights"
+    },
+    "-KW5XNq69KvBFaGvoDLx" : {
+      "name" : "Sellwood-Moreland"
+    },
+    "-KW5XOiDdkCvu6Hpbwxm" : {
+      "name" : "Capitol Hill"
+    },
+    "-KW5XPVBUjE85hFyQgti" : {
+      "name" : "Westmoreland"
+    },
+    "-KW5XRIgdhbxPNElRu2X" : {
+      "name" : "Eliot"
+    },
+    "-KW5XT-y-5P8ALROMB30" : {
+      "name" : "Mississippi"
+    },
+    "-KW5XU8bZmhPjEqgrdRK" : {
+      "name" : "Sullivan's Gulch"
+    },
+    "-KW5XUsTEw7y7ffy_WAI" : {
+      "name" : "Mt. Scott-Arleta"
+    },
+    "-KW5XWRpMWT-M875emuO" : {
+      "name" : "Mt. Tabor"
+    },
+    "-KW5XZQy7o4_hYYNUv7e" : {
+      "name" : "Northeast"
+    },
+    "-KW5Xa2feqJF9-o1KOds" : {
+      "name" : "Hillsdale"
+    },
+    "-KW5XcOah3wi6d-bnf0u" : {
+      "name" : "Northwest"
+    },
+    "-KW5XheQ4m8YPz8EVGCk" : {
+      "name" : "Center"
+    },
+    "-KW5XjR-Utym5kJaDGjs" : {
+      "name" : "Darlington"
+    },
+    "-KW5XkJSGnOZ97wo3G4N" : {
+      "name" : "Sycamore"
+    },
+    "-KW5XljJxmSvb7PlrEjI" : {
+      "name" : "Arlington Heights"
+    },
+    "-KW5XlpOjy8cCGNuS32Z" : {
+      "name" : "Overlook"
+    },
+    "-KW5XnTtVFBUkvmFK2EQ" : {
+      "name" : "Northwest Heights"
+    },
+    "-KW5XnUo43evEGGLNxMi" : {
+      "name" : "Parkrose Heights"
+    },
+    "-KW5XoqDZ2IWNzGIyCyK" : {
+      "name" : "Sunnyside"
+    },
+    "-KW5XpBtZ9x1vmokYWr7" : {
+      "name" : "Goose Hollow",
+      "reviews" : {
+        "-KWAAGIYfy6Axh7q8kbP" : true,
+        "-KWAV1aIVc_bypZ97yE5" : true
+      }
+    },
+    "-KW5XqcKZdtX2F9BuG-m" : {
+      "name" : "Pleasant Valley-Powellhurst Glbt"
+    },
+    "-KW5Xs-xfnlMPqRmgfgU" : {
+      "name" : "Portsmouth"
+    },
+    "-KW5XsN-9YnUKyRz9cDg" : {
+      "name" : "Reed"
+    },
+    "-KW5XttwE8gWhHP62mI8" : {
+      "name" : "Powellhurst-Gilbert"
+    },
+    "-KW5XuYclmp-yEFTRtZt" : {
+      "name" : "Homestead"
+    },
+    "-KW5XvPJc2BRTt5Q2gxZ" : {
+      "name" : "Roseway"
+    },
+    "-KW5Xw602tc8z9SB50j-" : {
+      "name" : "Markham"
+    },
+    "-KW5XwxJ7CYEQVk8CexK" : {
+      "name" : "Fruit Valley"
+    },
+    "-KW5XxelYVaREaTFis7S" : {
+      "name" : "Kerns"
+    },
+    "-KW5XyZooaYodUcAGF2i" : {
+      "name" : "Sabin"
+    },
+    "-KW5XzPsLwziG3Wl_9vp" : {
+      "name" : "South Tabor"
+    },
+    "-KW5Y-H3nbkmQkaShCRz" : {
+      "name" : "Sabin-Irvington"
+    },
+    "-KW5Y-r0tHWK9RipNOLn" : {
+      "name" : "Amuad"
+    },
+    "-KW5Y0voWtYjbSWYE_Sm" : {
+      "name" : "Seven Corners"
+    },
+    "-KW5Y1Ikc32fAQzegQF2" : {
+      "name" : "Errol"
+    },
+    "-KW5Y2kBN7XHXgqCRgiN" : {
+      "name" : "Southeast Uplift"
+    },
+    "-KW5Y2u6LoUjLZRUoSVM" : {
+      "name" : "Hillside"
+    },
+    "-KW5Y4K3UlvoY2kXkYxv" : {
+      "name" : "Woodstock"
+    },
+    "-KW5Y4THYYZHFkmxaAnB" : {
+      "name" : "Northwest Industrial"
+    },
+    "-KW5Y5ypdEMZu6A7LS8w" : {
+      "name" : "Sumner"
+    },
+    "-KW5Y66fy6kL8COh5_Vx" : {
+      "name" : "Columbia Slough"
+    },
+    "-KW5Y7glzKktZQsPUZKY" : {
+      "name" : "Northwest District",
+      "reviews" : {
+        "-KWALlD8lPtW2o-PDDpL" : true
+      }
+    },
+    "-KW5Y8ADJkpo0CvzN8vc" : {
+      "name" : "Sunderland"
+    },
+    "-KW5Y91OCvn_zjbCL8RY" : {
+      "name" : "Lloyd District"
+    },
+    "-KW5YADw1jFhVuC2O7oq" : {
+      "name" : "Sylvan-Highlands"
+    },
+    "-KW5YAYdnfzvAueHjcnq" : {
+      "name" : "Collins View"
+    },
+    "-KW5YCaFD6QClE5lB5K1" : {
+      "name" : "South Burlingame"
+    },
+    "-KW5YEjFIL5UVhTDUkAM" : {
+      "name" : "Forest Park"
+    },
+    "-KW5YGUc7Nq5VxG8zm5t" : {
+      "name" : "Rivergate"
+    },
+    "-KW5YHZ4nZXaa6Z6-odX" : {
+      "name" : "The Bucket"
+    },
+    "-KW5YI9smr5Evunl_V8F" : {
+      "name" : "Vermont Hills"
+    },
+    "-KW5YK-89u8EGrrIeJDD" : {
+      "name" : "Villa Ridge"
+    },
+    "-KW5YMEemHUYVWrZ0RnQ" : {
+      "name" : "Chinatown"
+    },
+    "-KW5YNwNxO7ghsOpV0Oh" : {
+      "name" : "Esther Short"
+    },
+    "-KW5YPksPL3DLXLbfbar" : {
+      "name" : "Alameda"
+    },
+    "-KW5YR8xz7-p0LmC6KLj" : {
+      "name" : "Vernon"
+    },
+    "-KW5YSvnxJr_skZ5Qbjh" : {
+      "name" : "West"
+    },
+    "-KW5YUOZrRclZqHZE6Wf" : {
+      "name" : "Wilkes"
+    },
+    "-KW5YVkwqxE8RskrbHmE" : {
+      "name" : "Hazelwood"
+    },
+    "-KW5YXJKzDwGmygH5YKX" : {
+      "name" : "Woodlawn"
+    },
+    "-KW5YYs_I81zlKRpPU3P" : {
+      "name" : "Linnton"
+    },
+    "-KW5Y_FIPtKLX09Da8yL" : {
+      "name" : "Haig"
+    },
+    "-KW5YazJZcPK2OpTTdAb" : {
+      "name" : "Old Evergreen Highway"
+    },
+    "-KW5YcKAW11-sr93cBwO" : {
+      "name" : "Hogan"
+    },
+    "-KW5YcKRzyHrV-bNpddd" : {
+      "name" : "Kendall"
+    },
+    "-KW5YdtfBnNHrfQ95qcS" : {
+      "name" : "Willbridge"
+    },
+    "-KW5Ye2O8zK5aFt6Ab3f" : {
+      "name" : "Riverview"
+    },
+    "-KW5Yh0oEUb_9bxL9X-o" : {
+      "name" : "Chutes"
+    },
+    "-KW5Yj4v6KHjPwFfR1mg" : {
+      "name" : "Golf Junction"
+    },
+    "-KW5YmQvk15U0YTF_fu7" : {
+      "name" : "Outer Southeast"
+    },
+    "-KW5YmsIDNbR0JrUFkXP" : {
+      "name" : "Albina"
+    },
+    "-KW5YpbI9jYxVG5T1a2i" : {
+      "name" : "West Portland"
+    },
+    "-KW5YsCLgcEkytzucznp" : {
+      "name" : "Kings Heights"
+    },
+    "-KW5YuN18XzmkAsqLsE1" : {
+      "name" : "St. Johns Junction"
+    },
+    "-KW5YxagkGF33W3Lo58Q" : {
+      "name" : "Graham"
+    },
+    "-KW5YznmIow83aasnKyW" : {
+      "name" : "South Portland"
+    },
+    "-KW5Z1MXizEdCD8jEZU-" : {
+      "name" : "Russell"
+    },
+    "-KW5Z3-usnrnqXQi2nW1" : {
+      "name" : "Watson"
+    },
+    "-KW5Z4VuGaCTfciaMyfm" : {
+      "name" : "Gilbert"
+    },
+    "-KW5ZKKGCsHB7njkgN1n" : {
+      "name" : "Piedmont"
+    },
+    "-KW5ZMKdK474fAdLaZ8x" : {
+      "name" : "Blakes Highland"
+    },
+    "-KW5ZO-0qyXuR59yutmD" : {
+      "name" : "Richmond"
+    },
+    "-KW5ZRGmY3fhvRhkWejN" : {
+      "name" : "Hollywood"
+    },
+    "-KW5ZU5Wp4IJPs5oewxg" : {
+      "name" : "Village at Columbia Shores"
+    },
+    "-KW5ZViXlIJsfjWu6nN9" : {
+      "name" : "Hemlock"
+    },
+    "-KW5ZX_2S0KL-HR_Dpb7" : {
+      "name" : "Montavilla"
+    },
+    "-KW5ZZ7cQXHYPK4wfWNr" : {
+      "name" : "Gasco",
+      "reviews" : {
+        "-KW8sbUvaVxT-TZMnlrg" : true,
+        "-KW90iOcULRqsqwPhNjP" : true
+      }
+    },
+    "-KW5ZcwV2yS6rr3zcPZH" : {
+      "name" : "Gilbert Station"
+    },
+    "-KW5ZeeV6-3Q97yn_big" : {
+      "name" : "Fir"
+    },
+    "-KW5Zgkq9KRm29mJkN_y" : {
+      "name" : "Englewood"
+    },
+    "-KW5ZjmgsQ7ny5Nq0bpM" : {
+      "name" : "Brooklyn",
+      "reviews" : {
+        "-KW9LfXcAXZ97hIfOkuk" : true,
+        "-KW9MdOVU8wEwEh4_64C" : true
+      }
+    },
+    "-KW5ZlUIraqopQjrqrL9" : {
+      "name" : "Waverly Heights"
+    },
+    "-KW5ZlrWLkrfsYWAHoRH" : {
+      "name" : "Clarnie"
+    },
+    "-KW5ZnAnkDhV6Y82_vrd" : {
+      "name" : "Maplewood"
+    },
+    "-KW5ZnwFaaczT2uSEVSM" : {
+      "name" : "Arleta"
+    },
+    "-KW5ZpFoELTWlYYvoFU_" : {
+      "name" : "Ladds Circle"
+    },
+    "-KW5Zpz-ENFoYJ3dO1Pt" : {
+      "name" : "Champ"
+    },
+    "-KW5ZqoIrE73B-zIUCCD" : {
+      "name" : "Pleasant Valley"
+    },
+    "-KW5ZsLr98Iha-jv3D88" : {
+      "name" : "Marquam Hill"
+    },
+    "-KW5ZsQZLLF8BA34DLJ3" : {
+      "name" : "Bridgeton"
+    },
+    "-KW5Zu2JJueQFqu3bDwr" : {
+      "name" : "Powell Valley"
+    },
+    "-KW5ZuvsUdC7nutu-1N0" : {
+      "name" : "Quarry"
+    },
+    "-KW5ZviQRjyFSnVHlIZu" : {
+      "name" : "Biddles Landing"
+    },
+    "-KW5ZwyUaTNAa7XqKGU8" : {
+      "name" : "Moffetts Hot Springs"
+    },
+    "-KW5Zy5QPqr-XOsTbi30" : {
+      "name" : "Hillsview"
+    },
+    "-KW5ZyxkrWWPOK4kfwWS" : {
+      "name" : "Lents"
+    },
+    "-KW5ZzbQ0j_nU-chL1oa" : {
+      "name" : "Ardenwald"
+    },
+    "-KW5_-vcjIjCV1SOFyIw" : {
+      "name" : "Lents Junction"
+    },
+    "-KW5_06WPR-nKrd5nOiX" : {
+      "name" : "Powellhurst"
+    },
+    "-KW5_1fSglZzREvPh505" : {
+      "name" : "Laurelhurst"
+    },
+    "-KW5_3BAD6bT7Yfpd0EU" : {
+      "name" : "Glencullen"
+    },
+    "-KW5_4ofOVOFJH2JOyXk" : {
+      "name" : "Barnes Heights"
+    },
+    "-KW9eV3c82YLEOCPkotL" : {
+      "name" : "Linnemann"
+    }
+  },
+  "reviews" : {
+    "-KW4qhaSI0FdXNwzePED" : {
+      "author" : "asdfasdfasdfasdf",
+      "comments" : "adsfasdfasdf",
+      "review" : "1",
+      "score" : 3
+    },
+    "-KW4zCNw2cCjCSXlKdsU" : {
+      "author" : "asdfasdfasdf",
+      "comments" : "asdfasdf",
+      "review" : "1",
+      "score" : 2
+    },
+    "-KW4zOT2xIVsvoNrTsIc" : {
+      "author" : "asdfasdfasdf",
+      "comments" : "asdfasdf",
+      "review" : "1",
+      "score" : 3.5
+    },
+    "-KW5--edhusq9q3AymPF" : {
+      "author" : "asdfasdf",
+      "comments" : "efasdfa",
+      "review" : "1",
+      "score" : 4
+    },
+    "-KW52QdkYUiFKjNJGsRj" : {
+      "author" : "aasdfasdf",
+      "comments" : "asdfasdf",
+      "neighborhood" : "1",
+      "score" : 2.5
+    },
+    "-KW52XiURb06QihIJ_OT" : {
+      "author" : "asdf",
+      "comments" : "asdf",
+      "neighborhood" : "1",
+      "score" : 5
+    },
+    "-KW52mgLMpchluBORjC2" : {
+      "author" : "asdfasdf",
+      "comments" : "asdfads",
+      "neighborhood" : "1",
+      "score" : 3
+    },
+    "-KW5307b9XQuqj9CsGoX" : {
+      "author" : "gkl.iol.i.",
+      "comments" : "asdfasd",
+      "neighborhood" : "1",
+      "score" : 1
+    },
+    "-KW53FFREmmHI6f15VTH" : {
+      "author" : "asdfasdf",
+      "comments" : "asdfasdf",
+      "neighborhood" : "1",
+      "score" : 3
+    },
+    "-KW53gWEXbEAU7Ybr8Fr" : {
+      "author" : "asdfasd",
+      "comments" : "asdfasdf",
+      "neighborhood" : "1",
+      "score" : 2
+    },
+    "-KW53xoBKn3GRZdq9n_U" : {
+      "author" : "asdfasdf",
+      "comments" : "asdfasd",
+      "neighborhood" : "1",
+      "score" : 3
+    },
+    "-KW53zIQwcAsCotMvvcu" : {
+      "author" : "s",
+      "comments" : "adsfasd",
+      "neighborhood" : "1",
+      "score" : 1
+    },
+    "-KW57BtT1Dp-ldaeJFNA" : {
+      "author" : "asdfasdf",
+      "comments" : "adsfasd",
+      "neighborhood" : "1",
+      "score" : 3
+    },
+    "-KW57DnB7fuYbr_U_lLh" : {
+      "author" : "a",
+      "comments" : "sa",
+      "neighborhood" : "1",
+      "score" : 1
+    },
+    "-KW8sbUvaVxT-TZMnlrg" : {
+      "author" : "Resident",
+      "comments" : "Gasco's the best",
+      "neighborhood" : "-KW5ZZ7cQXHYPK4wfWNr",
+      "score" : 5
+    },
+    "-KW90iOcULRqsqwPhNjP" : {
+      "author" : "jackson",
+      "comments" : "gasco is alright, got attacked by a dog",
+      "neighborhood" : "-KW5ZZ7cQXHYPK4wfWNr",
+      "score" : 3
+    },
+    "-KW9LfXcAXZ97hIfOkuk" : {
+      "author" : "asdas",
+      "comments" : "asdad",
+      "neighborhood" : "-KW5ZjmgsQ7ny5Nq0bpM",
+      "score" : 1.928
+    },
+    "-KW9MdOVU8wEwEh4_64C" : {
+      "author" : "STEPHEN",
+      "comments" : "BAD BDADDABDBADBAHDHBHAJDN S",
+      "neighborhood" : "-KW5ZjmgsQ7ny5Nq0bpM",
+      "score" : 2
+    },
+    "-KW9broAcDBdn35-6otz" : {
+      "author" : "asdfasdfas",
+      "comments" : "adsfasdf",
+      "neighborhood" : "1",
+      "score" : 3
+    },
+    "-KWA7qW3fzzg-IeXfiTz" : {
+      "author" : "Resident",
+      "comments" : "Not great...",
+      "neighborhood" : "-KW5Wr8Bqciv1XY-7Qyh",
+      "score" : 0
+    },
+    "-KWAAGIYfy6Axh7q8kbP" : {
+      "author" : ":(",
+      "comments" : "I hate this place.",
+      "neighborhood" : "-KW5XpBtZ9x1vmokYWr7",
+      "score" : 1
+    },
+    "-KWALlD8lPtW2o-PDDpL" : {
+      "author" : "AJG",
+      "comments" : "Leave my car there over week some spot. nothing wrong with it.",
+      "neighborhood" : "-KW5Y7glzKktZQsPUZKY",
+      "score" : 4
+    },
+    "-KWAV1aIVc_bypZ97yE5" : {
+      "author" : ":D",
+      "comments" : "Love the neighborhood",
+      "neighborhood" : "-KW5XpBtZ9x1vmokYWr7",
+      "score" : 5
+    },
+    "-KWDyVcFH-rrsZ5F6RxI" : {
+      "author" : "Current resident",
+      "comments" : "I love downtown!",
+      "neighborhood" : "1",
+      "score" : 5
+    }
+  }
+}
