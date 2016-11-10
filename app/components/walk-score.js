@@ -27,15 +27,16 @@ export default Ember.Component.extend({
     return Ember.$.getJSON(url).then(function(responseJSON) {
       //console.log(responseJSON.result.geographies["Census Blocks"]["0"].TRACT);
       var tract = responseJSON.result.geographies["Census Blocks"]["0"].TRACT;
-      var url2 = 'http://api.census.gov/data/2016/pdb/tract?get=County_name,State_name,Tot_Population_CEN_2010,College_ACS_10_14,Med_HHD_Inc_ACS_10_14&for=tract:' + tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
-      //console.log(tract);
-      return Ember.$.getJSON(url2).then(function(responseJSON){
-        console.log(responseJSON[1][1]);
-        $("#population").text(responseJSON[1][2]);
-        $("#college").text(responseJSON[1][3]);
-        $("#median").text(responseJSON[1][4]);
-        return Ember.String.htmlSafe('<li>' + 'County: ' + responseJSON[1][0] +'</li>' + '<li>' + 'State: ' + responseJSON[1][1] + '</li>' + '<li>' + 'Total Population: ' + responseJSON[1][2] + '</li>' + '<li>' +
-        'People with College Degrees over the age of 25: ' + responseJSON[1][3] + '</li>' + '<li>'+ 'Median Household Income: ' + responseJSON[1][4]);
+      var url2 = 'http://api.census.gov/data/2016/pdb/tract?get=Tot_Population_CEN_2010,pct_Females_ACS_10_14,pct_Males_ACS_10_14,pct_College_ACS_10_14,Med_HHD_Inc_ACS_10_14,Prs_Blw_Pov_Lev_ACS_10_14&for=tract:' + tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
+     //console.log(tract);
+     return Ember.$.getJSON(url2).then(function(responseJSON){
+       console.log(responseJSON);
+       $("#population").append(responseJSON[1][0]);
+       $("#females").append(parseFloat(responseJSON[1][1]).toFixed(2));
+       $("#males").append(parseFloat(responseJSON[1][2]).toFixed(2));
+       $("#college").append(parseFloat(responseJSON[1][3]).toFixed(2));
+       $("#median").append(responseJSON[1][4]);
+       $("#poverty").append(responseJSON[1][5]);
       });
     });
   }),
