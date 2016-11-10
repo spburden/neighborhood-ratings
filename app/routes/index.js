@@ -31,11 +31,11 @@ export default Ember.Route.extend({
     getWeather() {
       console.log("hello");
       var url='http://api.wunderground.com/api/ea315424a4da9d84/conditions/q/OR/Portland.json';
-      console.log("yo");
       return Ember.$.getJSON(url).then(function(responseJSON) {
         console.log(responseJSON);
         return responseJSON;
       });
+      this.sendAction("getMoreWeather")
     }
   }
 });

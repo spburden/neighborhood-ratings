@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('neighborhood', {path: '/neighborhood/:name/:lat/:long'});
   this.route('team');
   this.route('why');
+  this.route('weather');
 });
 
 export default Router;
