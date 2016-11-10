@@ -75,3 +75,15 @@ align: center;
 .form-control, .address {
 width: 90%;
 }
+
+img {
+  max-width: 300px;
+}
+
+.jumbotron {
+  color: rgba(50, 76, 159, 1);
+  background-color: hsla(148, 11%, 53%, 1);
+}
+.teamID {
+  max-width: 100%;
+}
