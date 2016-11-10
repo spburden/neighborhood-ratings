@@ -46,7 +46,7 @@ _You will need the following things properly installed on your computer._
 _There are currently no known bugs for this project. If you discover any issues, you can reach me via the contact details below._
 
 ## Support and contact details
-_If you have any questions about this project, please contact Andrew at andrew.m.merrell@gmail.com_
+_If you have any questions about this project, please contact Andrew at andrew.m.merrell@gmail.com or Stephen at spburden@hotmail.com_
 
 ## Technologies Used
 * _JavaScript_
