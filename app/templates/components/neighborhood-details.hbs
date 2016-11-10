@@ -13,7 +13,7 @@
         <h3>Reviews</h3>
         {{review-form neighborhood=neighborhood saveReview="saveReview"}}
         {{#each neighborhood.reviews as |review|}}
-          <h3>{{review.author}} | {{star-rating review.score}}</h3>
+          <h4>{{review.author}} | {{star-rating review.score}}</h4>
           <p>{{review.comments}}</p>
           <hr>
         {{/each}}
