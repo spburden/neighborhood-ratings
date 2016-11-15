@@ -21,7 +21,6 @@ _Ember application that allows users to select and view key information about Po
 
 _You will need the following things properly installed on your computer._
 
-
 * _[Git](http://git-scm.com/)_
 * _[Node.js](http://nodejs.org/) (with NPM)_
 * _[Bower](http://bower.io/)_
@@ -41,6 +40,11 @@ _You will need the following things properly installed on your computer._
 
 * `ember serve`
 * _Visit your app at [http://localhost:4200](http://localhost:4200)._
+
+## Viewing Live Version
+* _Open Chrome and Enable cross origin resource sharing in the Google Chrome Extension "Allow-Control-Allow-Origin:*"_
+* _Go to: https://neighborly-pdx.pagefrontapp.com/ _
+* _Click load unsafe scripts (if an API does not load)_
 
 ## Known Bugs
 _There are currently no known bugs for this project. If you discover any issues, you can reach me via the contact details below._

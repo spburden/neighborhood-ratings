@@ -26,7 +26,7 @@ export default Ember.Component.extend({
     var url = 'https://geocoding.geo.census.gov/geocoder/geographies/coordinates?x='+ this.latLong[1] + '&y=' + this.latLong[0] +'&benchmark=Public_AR_Census2010&vintage=Census2010_Census2010&layers=14&format=json';
     return Ember.$.getJSON(url).then(function(responseJSON) {
       var tract = responseJSON.result.geographies["Census Blocks"]["0"].TRACT;
-      var url2 = 'http://api.census.gov/data/2016/pdb/tract?get=Tot_Population_CEN_2010,pct_Females_ACS_10_14,pct_Males_ACS_10_14,pct_College_ACS_10_14,Med_HHD_Inc_ACS_10_14,Prs_Blw_Pov_Lev_ACS_10_14&for=tract:' + tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
+      var url2 = 'https://api.census.gov/data/2016/pdb/tract?get=Tot_Population_CEN_2010,pct_Females_ACS_10_14,pct_Males_ACS_10_14,pct_College_ACS_10_14,Med_HHD_Inc_ACS_10_14,Prs_Blw_Pov_Lev_ACS_10_14&for=tract:' + tract + '&in=state:41+county:051&key=d90ad8655f9cb4d3ee0909e5831a4989a51a22ab';
      return Ember.$.getJSON(url2).then(function(responseJSON){
        $("#population").text(responseJSON[1][0]);
        $("#females").text(parseFloat(responseJSON[1][1]).toFixed(2));
