@@ -43,7 +43,7 @@ _You will need the following things properly installed on your computer._
 
 ## Viewing Live Version
 * _Open Chrome and Enable cross origin resource sharing in the Google Chrome Extension "Allow-Control-Allow-Origin:*"_
-* _Go to: https://neighborly-pdx.pagefrontapp.com/ _
+* Go to: https://neighborly-pdx.pagefrontapp.com/
 * _Click load unsafe scripts (if an API does not load)_
 
 ## Known Bugs
