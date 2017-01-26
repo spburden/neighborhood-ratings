@@ -8,6 +8,9 @@
 
 _Ember application that allows users to select and view key information about Portland neighborhoods._
 
+<img src="Screenshot1.png" alt="A screenshot of the site">
+<img src="Screenshot2.png" alt="A screenshot of the site">
+
 ## Specifications
 
 | Behavior         | Input         | Output         |
