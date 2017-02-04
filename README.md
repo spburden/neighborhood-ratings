@@ -62,6 +62,7 @@ _If you have any questions about this project, please contact Andrew at andrew.m
 * _Google Maps API_
 * _Walkscore API_
 * _Bike Index API_
+* _Census Bureau API_
 * _Sass_
 * _HTML_
 
