@@ -36,7 +36,7 @@ _You will need the following things properly installed on your computer._
 
 ## Installation
 
-* `git clone https://github.com/amcmerrell/neighborhood-ratings`
+* `git clone https://github.com/spburden/neighborly-pdx-ember`
 * `cd neighborhood-ratings`
 * `npm install`
 * `bower install`

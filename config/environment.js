@@ -14,10 +14,14 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyBjiqWvMH48TkLdaZFWvtnuWos91teOkwU",
-      authDomain: "neighborhood-reviews.firebaseapp.com",
-      databaseURL: "https://neighborhood-reviews.firebaseio.com",
-      storageBucket: "neighborhood-reviews.appspot.com"
+      // apiKey: "AIzaSyBjiqWvMH48TkLdaZFWvtnuWos91teOkwU",
+      // authDomain: "neighborhood-reviews.firebaseapp.com",
+      // databaseURL: "https://neighborhood-reviews.firebaseio.com",
+      // storageBucket: "neighborhood-reviews.appspot.com"
+      apiKey: "AIzaSyDnumb9IrYcgPsk8teV7Kv9EHaV-JhL1e0",
+      authDomain: "neighborly-pdx-ember.firebaseapp.com",
+      databaseURL: "https://neighborly-pdx-ember.firebaseio.com",
+      storageBucket: "neighborly-pdx-ember.appspot.com"
     },
 
     APP: {
