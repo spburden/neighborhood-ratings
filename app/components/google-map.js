@@ -44,12 +44,16 @@ export default Ember.Component.extend({
         zIndex: 2
       });
       // console.log(e.feature.getProperty('label'));
+
+      var hood = e.feature.getProperty('label');
+      $("#labelhood").text(hood);
+
       infoWindow.setContent('<div style="line-height:1.00;overflow:hidden;white-space:nowrap;">' +
         e.feature.getProperty('label') + '</div>');
 
         var anchor = new google.maps.MVCObject();
         anchor.set("position", e.latLng);
-        infoWindow.open(fullMap, anchor);
+        // infoWindow.open(fullMap, anchor);
       });
 
       neighborhood.addListener('mouseout', function(e) {
